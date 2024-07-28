@@ -50,7 +50,7 @@ body {
 .wrapper {
   max-width: 1120px;
   width: 100%;
-  padding: var(--top-wrapper-space) 30px 10px;
+  padding: var(--top-wrapper-space) 15px 10px;
   margin: 0 auto;
   min-height: 75vh;
 }
@@ -430,4 +430,14 @@ div#yotpo-mobile-filters-popup .yotpo-mobile-filters-popup-header button.yotpo-m
   text-transform: uppercase;
   font-size: 0.75rem;
   font-weight: normal;
+}
+.yotpo-display-s .yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget .yotpo-filters-container .yotpo-filters-container-inner .yotpo-filters-top-panel .yotpo-search-filter.yotpo-free-search-filter-container {
+  min-width: unset;
+}
+.yotpo-display-s .modal-backdrop.yotpo-review-form-modal .yotpo-modal .yotpo-form-label {
+  margin-bottom: 0;
+}
+.yotpo-display-s .yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget div#yotpo-reviews-container .yotpo-reviews-list .yotpo-review .yotpo-review-right-panel {
+  order: -1;
+  width: 100%;
 }
