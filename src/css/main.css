@@ -218,13 +218,19 @@ body {
 .yotpo-main-layout.yotpo-main-reviews-widget * {
   font-family: 'Futura',sans-serif !important;
   border-radius: 0 !important;
+  text-transform: uppercase;
+  font-size: 0.75rem;
   }
   .yotpo-modal * {
   font-family: 'Futura',sans-serif !important;
+  text-transform: uppercase;
+  font-size: 0.75rem;
   }
   .modal-backdrop.yotpo-review-form-modal * {
     font-family: 'Futura',sans-serif !important;
     border-radius: 0 !important;
+    text-transform: uppercase;
+    font-size: 0.75rem;
 }
   [class*="yotpo-display-"][class*="yotpo-device-"].yotpo-device-mobile .modal-backdrop.yotpo-media-modal {
     background-color: #fff;
@@ -402,4 +408,26 @@ div#yotpo-mobile-filters-popup .yotpo-mobile-filters-popup-header button.yotpo-m
 .modal-backdrop.yotpo-review-form-modal .yotpo-modal .yotpo-modal-body footer.form-footer .yotpo-checkbox-container.yotpo-terms-and-conditions-container input#checkboxInput {
     position: relative;
     top: 1px;
+}
+
+.yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget .yotpo-filters-container .yotpo-filters-container-inner .yotpo-filters-top-panel .yotpo-search-filter.yotpo-free-search-filter-container label.yotpo-search-label input#searchInput {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+.yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget .yotpo-filters-container .yotpo-filters-container-inner .yotpo-filters-top-panel .yotpo-score-filter.yotpo-score-filter-container label.yotpo-dropdown-base .yotpo-selected-value {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+.yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget .yotpo-filters-container .yotpo-filters-container-inner .yotpo-filters-top-panel .yotpo-media-filter.yotpo-media-filter-container label.yotpo-radio-base .yotpo-selected-value {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+.yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget .yotpo-header-container .yotpo-layout-header-wrapper .yotpo-bottom-line .yotpo-summary-section .yotpo-bottom-line-summary .yotpo-bottom-line-right-panel .yotpo-bottom-line-text .yotpo-bottom-line-basic-text {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+.yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget .yotpo-header-container .yotpo-layout-header-wrapper .yotpo-new-review-btn-wrapper button#yotpo-main-widget-btn {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: normal;
 }
