@@ -206,13 +206,13 @@ body {
   font-family: 'Futura';
   font-style: normal;
   font-display: swap;
-  src: url(https://cdn.shopify.com/s/files/1/0708/4605/4708/files/FuturaPT-Book.ttf?v=1686827137) format('woff2');
+  src: url(https://cdn.shopify.com/s/files/1/0708/4605/4708/files/FuturaPT-Book.ttf?v=1686827137) format('truetype');
 }
 @font-face {
   font-family: 'Futura';
   font-style: normal;
   font-weight: bold;
-  src: url(https://cdn.shopify.com/s/files/1/0708/4605/4708/files/FuturaPTBold.otf?v=1683539828) format('woff2');
+  src: url(https://cdn.shopify.com/s/files/1/0708/4605/4708/files/FuturaPTMedium.otf?v=1683539828) format('opentype');
 }
 
 .yotpo-main-layout.yotpo-main-reviews-widget * {
@@ -222,9 +222,10 @@ body {
   .yotpo-modal * {
   font-family: 'Futura',sans-serif !important;
   }
-  .modal-backdrop.yotpo-review-media-modal * {
-  font-family: 'Futura',sans-serif !important;
-  }
+  .modal-backdrop.yotpo-review-form-modal * {
+    font-family: 'Futura',sans-serif !important;
+    border-radius: 0 !important;
+}
   [class*="yotpo-display-"][class*="yotpo-device-"].yotpo-device-mobile .modal-backdrop.yotpo-media-modal {
     background-color: #fff;
     overflow-y: scroll;
